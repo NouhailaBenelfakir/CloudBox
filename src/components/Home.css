@@ -1,0 +1,87 @@
+/* Styles for the home container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 94vh;
+  background-color: #e4eef5; /* Light beige background color */
+  color: #333333; /* Dark text color */
+  position: relative; /* Ensure child components can be positioned relative to this */
+}
+
+/* Logo styling */
+.logo img {
+  width: 170px;
+  height: 70px;
+  margin-top: 30px; /* Space from the top */
+}
+
+
+.login-button {
+  background-color: #6495ED; /* Button color */
+  color: #ffffff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5%; /* Rounded corners */
+}
+.login-button:hover {
+  background-color: #3b70d2;
+}
+/* Styles for the main content */
+.main-content {
+  position: absolute; /* Absolute position for fixed placement */
+  top: 15px; /* Distance from the top of the viewport */
+  left: 50%;
+  transform: translateX(-50%); /* Center the content horizontally */
+  text-align: center;
+  color: #333333; /* Dark text color */
+}
+
+/* Slogan styling */
+.slogan {
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+/* Description styling */
+.description {
+  font-size: 18px;
+}
+
+/* Styles for the bottom left container */
+.bottom-left-container {
+  position: absolute; /* Absolute position to keep it fixed in the bottom left corner */
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Background image styling */
+.background-image {
+  width: 300px; /* Fixed width for consistency */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 40px; /* Space between image and advantages box */
+  border-radius: 15px; /* Rounded corners */
+}
+
+/* Styles for the advantages box */
+.advantages-box {
+  background-color: #ffffff; /* White background for the box */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  padding: 15px;
+  border-radius: 10px;
+  width: 600px; /* Fixed width for advantages box */
+}
+
+.advantage-description {
+  font-size: 18px;
+  color: #333333; /* Dark text color */
+  line-height: 1.6; /* Spacing between lines */
+}

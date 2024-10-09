@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Change to flex-start to align items to the left */
+    background-color: #6495ed; 
+    padding: 10px 10px; 
+    color: white; 
+}
+
+.logo {
+    width: 120px;
+    height: 70px;
+    margin-right: 10px; /* Adjusted margin for spacing */
+    border-radius: 6px;
+}
+
+.app-name {
+    margin: 0; 
+    font-size: 28px; 
+}
